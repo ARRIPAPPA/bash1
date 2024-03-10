@@ -9,7 +9,7 @@ import shutil
 from datetime import datetime
 
 bot_start_time = datetime.utcnow()
-AUTH_USERS = [6748415360 , 1130243906] 
+AUTH_USERS = [5422016608] 
 TEMP_DOWNLOAD_DIRECTORY = 'temp/'
 os.makedirs(TEMP_DOWNLOAD_DIRECTORY, exist_ok=True)
 MAX_MESSAGE_LENGTH = 4096
@@ -18,7 +18,7 @@ UN_FINISHED_PROGRESS_STR = "❎"
 
 api_id = '19975263'
 api_hash = 'c06e6a449ce68bbc5b30160a05ab8fdb'
-bot_token = '6606583426:AAFZs9oijCO-XSQZ9G_HguYMnxSiIkmpGCg'
+bot_token = '7023966079:AAGVFsxpsLsLH3LxtGwiPlfz4RQNOaR1xlM'
 app = Client("my_bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
 @app.on_message(filters.command(["start"], prefixes=["/", "!", ".", ""] ) & filters.private)
